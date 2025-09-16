@@ -40,7 +40,7 @@ cargo build --package cardea-web-search-mcp-server --release
 The CLI options of the mcp server are as follows:
 
 ```bash
-Usage: cardea-web-search-mcp-server [OPTIONS]
+Usage: cardea-web-search [OPTIONS]
 
 Options:
   -s, --socket-addr <SOCKET_ADDR>  Socket address to bind to [default: 127.0.0.1:8010]
@@ -54,10 +54,10 @@ Now, let's start the mcp server by running the following command:
 
 ```bash
 # run mcp server (stream-http)
-./target/release/cardea-web-search-mcp-server --transport stream-http
+./target/release/cardea-web-search --transport stream-http
 
 # run mcp server (sse)
-./target/release/cardea-web-search-mcp-server --transport sse
+./target/release/cardea-web-search --transport sse
 ```
 
 If started successfully, you will see the following output:
