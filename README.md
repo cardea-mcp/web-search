@@ -20,11 +20,9 @@ The Cardea Web Search MCP Server is a component of the Cardea project that provi
 
 ## Build
 
-Let's build the mcp server and client by running the following commands:
-
 ```bash
 # build mcp server
-cargo build --package cardea-web-search-mcp-server --release
+cargo build --release
 ```
 
 ## Run
